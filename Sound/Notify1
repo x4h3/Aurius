@@ -1,8 +1,0 @@
-local sound = Instance.new("Sound")
-
-sound.Parent = game:GetService("Workspace")
-sound.SoundId = "rbxassetid://6026984224"
-sound.Volume = 0.5
-sound:Play()
-wait(1.5)
-sound:Destroy()
